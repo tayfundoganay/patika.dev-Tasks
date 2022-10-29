@@ -21,6 +21,6 @@ public class ortalamaHesaplayici {
         int muzik = scanner.nextInt();
 
         double sonuc = (mat + fizik + kimya + turkce + tarih + muzik) / 6.0;
-        System.out.println("Ortalamaniz = " + sonuc + "\n" + (sonuc < 50 ? "Kaldiniz":"Gectiniz"));
+        System.out.println("Ortalamaniz = " + sonuc + "\n" + (sonuc < 60 ? "Kaldiniz":"Gectiniz"));
     }
 }
