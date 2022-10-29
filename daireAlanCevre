@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class daireAlanCevre {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dairenin yaricapini giriniz.");
+        int r = scanner.nextInt();
+        double pi = 3.14, daireAlan, daireCevre;
+        daireAlan = pi * r * r;
+        daireCevre = 2 * pi * r;
+
+        System.out.println("Dairenin Alani = " + daireAlan + "\nDairenin Cevresi " + daireCevre);
+        System.out.print("Daire Diliminin aci ölcüsünü giriniz.");
+        double daireDilimi = scanner.nextDouble(), daireDilimiAlan;
+        daireDilimiAlan = (daireAlan * daireDilimi) / 360;
+        System.out.println("Daire Diliminin Alani = " + daireDilimiAlan);
+        
+    }
+}
