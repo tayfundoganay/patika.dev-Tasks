@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class kdvHesaplayici {
+    public static void main(String[] args) {
+        kdvHesaplayici();
+    }
+    public static void kdvHesaplayici(){
+        double tutar = 0,kdvOran = 0.18,kdvTutar,kdvliTutar;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ücreti giriniz : ");
+        kdvTutar = tutar * kdvOran;
+        kdvliTutar = kdvTutar+tutar;
+        System.out.println("KDV Oranı = " + kdvOran);
+        System.out.println("Tutar = " + tutar);
+        System.out.println("KDVli Tutar = " + kdvliTutar);
+
+    }
+}
