@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class vucutKitleEndeksiHesaplayici {
     public static void main(String[] args) {
-        vücutKitleEndeksiHesaplayici();
+        vucutKitleEndeksiHesaplayici();
     }
     public static void vucutKitleEndeksiHesaplayici(){
         Scanner scanner = new Scanner(System.in);
