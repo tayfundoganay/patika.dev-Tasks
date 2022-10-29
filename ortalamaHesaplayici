@@ -1,1 +1,26 @@
 
+import java.util.Scanner;
+
+public class ortalamaHesaplayici {
+    public static void main(String[] args) {
+        ortalamaHesapla();
+    }
+    static void ortalamaHesapla(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Matematik notunuzu giriniz :\t");
+        int mat = scanner.nextInt();
+        System.out.print("Fizik notunuzu giriniz :\t");
+        int fizik = scanner.nextInt();
+        System.out.print("Kimya notunuzu giriniz :\t");
+        int kimya = scanner.nextInt();
+        System.out.print("Turkce notunuzu giriniz :\t");
+        int turkce = scanner.nextInt();
+        System.out.print("Tarih notunuzu giriniz :\t");
+        int tarih = scanner.nextInt();
+        System.out.print("Muzik notunuzu giriniz :\t");
+        int muzik = scanner.nextInt();
+
+        double sonuc = (mat + fizik + kimya + turkce + tarih + muzik) / 6.0;
+        System.out.println("Ortalamaniz = " + sonuc + "\n" + (sonuc < 50 ? "Kaldiniz":"Gectiniz"));
+    }
+}
