@@ -30,9 +30,6 @@ public class SwitchCaseCalculator {
                 }else {
                     System.out.println("Result is = " + (number1 / number2));
                 }
-            default:
-
-
     }
 }
 }
